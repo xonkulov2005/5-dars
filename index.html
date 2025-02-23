@@ -12,6 +12,9 @@
         <a href="#">
           <img src="./images/Logo.svg" alt="Site Logotipi" />
         </a>
+        <button id="modeToggle">
+          <img src="./images/sun.png" />
+        </button>
       </div>
     </header>
     <!-- HEADER -->
@@ -19,7 +22,23 @@
       <section class="hero">
         <div class="hero__container container">
           <h1 class="title">Analyze your text in real-time.</h1>
-          <textarea name="" id=""></textarea>
+          <div>
+            <textarea class="area">
+Design is the silent ambassador of your brand. Simplicity is key to effective communication, creating clarity in every interaction. A great design transforms complex ideas into elegant solutions, making them easy to understand. It blends aesthetics and functionality seamlessly.</textarea
+            >
+            <div class="input-container">
+              <label>
+                <input type="checkbox" />
+                Exclude Spaces
+              </label>
+              <label>
+                <input type="checkbox" />
+                Set Character Limit
+              </label>
+              <p class="input-text">Approx. reading time: &lt;1 minute</p>
+            </div>
+          </div>
+
           <div class="inner__container">
             <div class="first__container">
               <div>
@@ -40,12 +59,25 @@
             <div class="thirt__container">
               <h2 class="inner__title">04</h2>
               <p class="inner__text">Sentence Count</p>
-              <img class="thirt__inner__img" src="./images/shape-111.svg" alt="" />
+              <img
+                class="thirt__inner__img"
+                src="./images/shape-111.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </section>
     </main>
+    <!-- MAIN END -->
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer__container container">
+        <h3 class="footer__title">Letter Density</h3>
+        <img class="footer__img" src="./images/List Container.svg" alt="" />
+        <p class="footer__text">See more &#x25BC</p>
+      </div>
+    </footer>
     <script src="./app.js"></script>
   </body>
 </html>
